@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		FD9B620E1B5FEFB0008C2D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9B620D1B5FEFB0008C2D08 /* main.m */; };
 		FD9B62111B5FEFB0008C2D08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9B62101B5FEFB0008C2D08 /* AppDelegate.m */; };
-		FD9B62141B5FEFB0008C2D08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9B62131B5FEFB0008C2D08 /* ViewController.m */; };
+		FD9B62141B5FEFB0008C2D08 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9B62131B5FEFB0008C2D08 /* OrderViewController.m */; };
 		FD9B62171B5FEFB0008C2D08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9B62151B5FEFB0008C2D08 /* Main.storyboard */; };
 		FD9B62191B5FEFB0008C2D08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9B62181B5FEFB0008C2D08 /* Images.xcassets */; };
 		FD9B621C1B5FEFB0008C2D08 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD9B621A1B5FEFB0008C2D08 /* LaunchScreen.xib */; };
 		FD9B62281B5FEFB0008C2D08 /* HappyLunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9B62271B5FEFB0008C2D08 /* HappyLunchTests.m */; };
+		FD9B62331B5FFBC1008C2D08 /* FoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9B62321B5FFBC1008C2D08 /* FoodTableViewCell.m */; };
+		FDAC5EB41B601D8400A0E403 /* DrinkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAC5EB31B601D8400A0E403 /* DrinkTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		FD9B620D1B5FEFB0008C2D08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD9B620F1B5FEFB0008C2D08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD9B62101B5FEFB0008C2D08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FD9B62121B5FEFB0008C2D08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FD9B62131B5FEFB0008C2D08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD9B62121B5FEFB0008C2D08 /* OrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		FD9B62131B5FEFB0008C2D08 /* OrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
 		FD9B62161B5FEFB0008C2D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD9B62181B5FEFB0008C2D08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FD9B621B1B5FEFB0008C2D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FD9B62211B5FEFB0008C2D08 /* HappyLunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyLunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9B62261B5FEFB0008C2D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD9B62271B5FEFB0008C2D08 /* HappyLunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyLunchTests.m; sourceTree = "<group>"; };
+		FD9B62311B5FFBC1008C2D08 /* FoodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewCell.h; sourceTree = "<group>"; };
+		FD9B62321B5FFBC1008C2D08 /* FoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewCell.m; sourceTree = "<group>"; };
+		FDAC5EB21B601D8400A0E403 /* DrinkTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkTableViewCell.h; sourceTree = "<group>"; };
+		FDAC5EB31B601D8400A0E403 /* DrinkTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +89,13 @@
 			children = (
 				FD9B620F1B5FEFB0008C2D08 /* AppDelegate.h */,
 				FD9B62101B5FEFB0008C2D08 /* AppDelegate.m */,
-				FD9B62121B5FEFB0008C2D08 /* ViewController.h */,
-				FD9B62131B5FEFB0008C2D08 /* ViewController.m */,
+				FD9B62121B5FEFB0008C2D08 /* OrderViewController.h */,
+				FD9B62131B5FEFB0008C2D08 /* OrderViewController.m */,
+				FD9B62311B5FFBC1008C2D08 /* FoodTableViewCell.h */,
+				FD9B62321B5FFBC1008C2D08 /* FoodTableViewCell.m */,
 				FD9B62151B5FEFB0008C2D08 /* Main.storyboard */,
+				FDAC5EB21B601D8400A0E403 /* DrinkTableViewCell.h */,
+				FDAC5EB31B601D8400A0E403 /* DrinkTableViewCell.m */,
 				FD9B62181B5FEFB0008C2D08 /* Images.xcassets */,
 				FD9B621A1B5FEFB0008C2D08 /* LaunchScreen.xib */,
 				FD9B620B1B5FEFB0008C2D08 /* Supporting Files */,
@@ -219,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD9B62141B5FEFB0008C2D08 /* ViewController.m in Sources */,
+				FD9B62141B5FEFB0008C2D08 /* OrderViewController.m in Sources */,
+				FDAC5EB41B601D8400A0E403 /* DrinkTableViewCell.m in Sources */,
+				FD9B62331B5FFBC1008C2D08 /* FoodTableViewCell.m in Sources */,
 				FD9B62111B5FEFB0008C2D08 /* AppDelegate.m in Sources */,
 				FD9B620E1B5FEFB0008C2D08 /* main.m in Sources */,
 			);
@@ -416,6 +428,7 @@
 				FD9B622D1B5FEFB0008C2D08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD9B622E1B5FEFB0008C2D08 /* Build configuration list for PBXNativeTarget "HappyLunchTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				FD9B62301B5FEFB0008C2D08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
